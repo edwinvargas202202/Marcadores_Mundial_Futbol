@@ -84,7 +84,22 @@ public class crearcategoria {
                 opcion = sn.nextInt();
  
                 switch (opcion) {
-                    
+                	case 1:
+                		System.out.println("Has seleccionado la categoria A");
+                		System.out.println("Escribe el nombre del equipo 1 a ingresar (son 4 equipos):");
+                		a1 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 2 a ingresar (son 4 equipos):");
+                		a2 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 3 a ingresar (son 4 equipos):");
+                		a3 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
+                		a4 = sn.next();
+                		categoria1.add(a1);
+                		categoria1.add(a2);
+                		categoria1.add(a3);
+                		categoria1.add(a4);
+                		imprimir(categoria1);
+                		break;
                     case 10:
                         salir = true;
                         break;
