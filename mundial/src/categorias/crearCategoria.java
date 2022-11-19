@@ -65,6 +65,18 @@ public class crearCategoria {
         String h3=null;
         String h4=null;
         
+        Original creador = new Original("Categoria A", "vacio");
+        Vigilante vigilante= new Vigilante();
+        
+        Original creador2 = new Original("Categoria A", "vacio");
+        Vigilante vigilante2= new Vigilante();
+        
+        Original creador3 = new Original("Categoria A", "vacio");
+        Vigilante vigilante3= new Vigilante();
+        
+        Original creador4 = new Original("Categoria A", "vacio");
+        Vigilante vigilante4= new Vigilante();
+        
         while (!salir) {
  
             System.out.println("1. Categoria A");
@@ -86,9 +98,6 @@ public class crearCategoria {
                 switch (opcion) {
                 	case 1:
                 		System.out.println("Has seleccionado la categoria A");
-                		
-                		
-                		
                 		System.out.println("Escribe el nombre del equipo 1 a ingresar (son 4 equipos):");
                 		a1 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 2 a ingresar (son 4 equipos):");
@@ -102,8 +111,7 @@ public class crearCategoria {
                 		categoria1.add(a3);
                 		categoria1.add(a4);
                 		//imprimir(categoria1);
-                		Original creador = new Original("Categoria A", "vacio");
-                        Vigilante vigilante= new Vigilante();
+                		
                         vigilante.setMemento( creador.createMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         creador.setCategoria("A");
@@ -111,9 +119,7 @@ public class crearCategoria {
                         System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         //creador.setMemento( vigilante.getMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
-                		
-                        Original creador2 = new Original("Categoria A", "vacio");
-                        Vigilante vigilante2= new Vigilante();
+                	
                         vigilante.setMemento( creador2.createMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         creador2.setCategoria("A");
@@ -122,8 +128,6 @@ public class crearCategoria {
                         //creador2.setMemento( vigilante2.getMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                 		
-                        Original creador3 = new Original("Categoria A", "vacio");
-                        Vigilante vigilante3= new Vigilante();
                         vigilante.setMemento( creador3.createMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         creador3.setCategoria("A");
@@ -132,8 +136,6 @@ public class crearCategoria {
                         //creador3.setMemento( vigilante3.getMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         
-                        Original creador4 = new Original("Categoria A", "vacio");
-                        Vigilante vigilante4= new Vigilante();
                         vigilante.setMemento( creador4.createMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
                         creador4.setCategoria("A");
@@ -141,8 +143,105 @@ public class crearCategoria {
                         System.out.println("Categoria: " + creador4.getCategoria() + " Equipo: " + creador4.getEquipo() + " " );
                         //creador4.setMemento( vigilante4.getMemento() );
                         //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
-                		
                 		break;
+                		
+                	case 2:
+                		System.out.println("Has seleccionado la categoria B");
+                		System.out.println("Escribe el nombre del equipo 1 a ingresar (son 4 equipos):");
+                		b1 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 2 a ingresar (son 4 equipos):");
+                		b2 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 3 a ingresar (son 4 equipos):");
+                		b3 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
+                		b4 = sn.next();
+                		categoria1.add(b1);
+                		categoria1.add(b2);
+                		categoria1.add(b3);
+                		categoria1.add(b4);
+                		//imprimir(categoria1);
+                		
+                        vigilante.setMemento( creador.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador.setCategoria("B");
+                        creador.setEquipo(b1);
+                        System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        //creador.setMemento( vigilante.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                        vigilante.setMemento( creador2.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador2.setCategoria("B");
+                        creador2.setEquipo(b2);
+                        System.out.println("Categoria: " + creador2.getCategoria() + " Equipo: " + creador2.getEquipo() + " " );
+                        //creador2.setMemento( vigilante2.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                        vigilante.setMemento( creador3.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador3.setCategoria("B");
+                        creador3.setEquipo(b3);
+                        System.out.println("Categoria: " + creador3.getCategoria() + " Equipo: " + creador3.getEquipo() + " " );
+                        //creador3.setMemento( vigilante3.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        
+                        vigilante.setMemento( creador4.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador4.setCategoria("B");
+                        creador4.setEquipo(b4);
+                        System.out.println("Categoria: " + creador4.getCategoria() + " Equipo: " + creador4.getEquipo() + " " );
+                        //creador4.setMemento( vigilante4.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                	case 3:
+                		System.out.println("Has seleccionado la categoria C");
+                		System.out.println("Escribe el nombre del equipo 1 a ingresar (son 4 equipos):");
+                		c1 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 2 a ingresar (son 4 equipos):");
+                		c2 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 3 a ingresar (son 4 equipos):");
+                		c3 = sn.next();
+                		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
+                		c4 = sn.next();
+                		categoria1.add(c1);
+                		categoria1.add(c2);
+                		categoria1.add(c3);
+                		categoria1.add(c4);
+                		//imprimir(categoria1);
+                		
+                        vigilante.setMemento( creador.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador.setCategoria("C");
+                        creador.setEquipo(b1);
+                        System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        //creador.setMemento( vigilante.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                        vigilante.setMemento( creador2.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador2.setCategoria("C");
+                        creador2.setEquipo(b2);
+                        System.out.println("Categoria: " + creador2.getCategoria() + " Equipo: " + creador2.getEquipo() + " " );
+                        //creador2.setMemento( vigilante2.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                        vigilante.setMemento( creador3.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador3.setCategoria("C");
+                        creador3.setEquipo(b3);
+                        System.out.println("Categoria: " + creador3.getCategoria() + " Equipo: " + creador3.getEquipo() + " " );
+                        //creador3.setMemento( vigilante3.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        
+                        vigilante.setMemento( creador4.createMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                        creador4.setCategoria("C");
+                        creador4.setEquipo(b4);
+                        System.out.println("Categoria: " + creador4.getCategoria() + " Equipo: " + creador4.getEquipo() + " " );
+                        //creador4.setMemento( vigilante4.getMemento() );
+                        //System.out.println("Categoria: " + creador.getCategoria() + " Equipo: " + creador.getEquipo() + " " );
+                		
+                	
                     case 10:
                         salir = true;
                         break;
