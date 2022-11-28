@@ -155,10 +155,10 @@ public class crearCategoria {
                 		b3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		b4 = sn.next();
-                		categoria1.add(b1);
-                		categoria1.add(b2);
-                		categoria1.add(b3);
-                		categoria1.add(b4);
+                		categoria2.add(b1);
+                		categoria2.add(b2);
+                		categoria2.add(b3);
+                		categoria2.add(b4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -204,10 +204,10 @@ public class crearCategoria {
                 		c3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		c4 = sn.next();
-                		categoria1.add(c1);
-                		categoria1.add(c2);
-                		categoria1.add(c3);
-                		categoria1.add(c4);
+                		categoria3.add(c1);
+                		categoria3.add(c2);
+                		categoria3.add(c3);
+                		categoria3.add(c4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -253,10 +253,10 @@ public class crearCategoria {
                 		d3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		d4 = sn.next();
-                		categoria1.add(d1);
-                		categoria1.add(d2);
-                		categoria1.add(d3);
-                		categoria1.add(d4);
+                		categoria4.add(d1);
+                		categoria4.add(d2);
+                		categoria4.add(d3);
+                		categoria4.add(d4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -302,10 +302,10 @@ public class crearCategoria {
                 		e3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		e4 = sn.next();
-                		categoria1.add(e1);
-                		categoria1.add(e2);
-                		categoria1.add(e3);
-                		categoria1.add(e4);
+                		categoria5.add(e1);
+                		categoria5.add(e2);
+                		categoria5.add(e3);
+                		categoria5.add(e4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -351,10 +351,10 @@ public class crearCategoria {
                 		f3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		f4 = sn.next();
-                		categoria1.add(f1);
-                		categoria1.add(f2);
-                		categoria1.add(f3);
-                		categoria1.add(f4);
+                		categoria6.add(f1);
+                		categoria6.add(f2);
+                		categoria6.add(f3);
+                		categoria6.add(f4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -400,10 +400,10 @@ public class crearCategoria {
                 		g3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		g4 = sn.next();
-                		categoria1.add(g1);
-                		categoria1.add(g2);
-                		categoria1.add(g3);
-                		categoria1.add(g4);
+                		categoria7.add(g1);
+                		categoria7.add(g2);
+                		categoria7.add(g3);
+                		categoria7.add(g4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
@@ -449,10 +449,10 @@ public class crearCategoria {
                 		h3 = sn.next();
                 		System.out.println("Escribe el nombre del equipo 4 a ingresar (son 4 equipos):");
                 		h4 = sn.next();
-                		categoria1.add(h1);
-                		categoria1.add(h2);
-                		categoria1.add(h3);
-                		categoria1.add(h4);
+                		categoria8.add(h1);
+                		categoria8.add(h2);
+                		categoria8.add(h3);
+                		categoria8.add(h4);
                 		//imprimir(categoria1);
                 		
                         vigilante.setMemento( creador.createMemento() );
