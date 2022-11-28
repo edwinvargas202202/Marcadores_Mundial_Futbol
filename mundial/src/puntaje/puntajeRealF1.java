@@ -6,7 +6,7 @@ public class puntajeRealF1 extends puntajeJugadorF1 {
 	
 	public void puntaje() {
 				
-		System.out.println("Puntaje que propone el jugador en la Fase 1");
+		System.out.println("Puntaje Real en la Fase 1");
 		System.out.println("Si acerta en el marcador del partido son 5 puntos");
 		System.out.println("Si acerta en que quedo el equipo ganador o empate son 3 puntos");
 		System.out.println("Si acerta en que quedo el equipo en octavos es 1 punto");
@@ -36,7 +36,7 @@ public class puntajeRealF1 extends puntajeJugadorF1 {
 		e2 = sn.nextInt();
 		System.out.println("Escribe si el equipo quedo de finales (REAL)");
 		f2 = sn.nextInt();
-		System.out.println("Escribe si el equipo quedo de posicion 1, 2, 3 o 4 ");
+		System.out.println("Escribe si el equipo quedo de posicion 1, 2, 3 o 4 (REAL)");
 		g2 = sn.nextInt();
 		
 		if (puntajeJugadorF1.a1 == a2) {
