@@ -4,7 +4,15 @@ import java.util.Scanner;
 
 public class puntajeJugadorF1 {
 	
-	public void puntaje() {
+	static int a1=0; //marcador
+	static int b1=0; //ganador o empate
+	static int c1=0; //octavos
+	static int d1=0; //cuartos
+	static int e1=0; //semis
+	static int f1=0; //finales
+	static int g1=0; //posicion
+	
+	public void puntajej() {
 				
 		System.out.println("Puntaje que propone el jugador en la Fase 1");
 		System.out.println("Si acerta en el marcador del partido son 5 puntos");
@@ -15,14 +23,8 @@ public class puntajeJugadorF1 {
 		System.out.println("Si acerta en que quedo el equipo en finales son 4 puntos");
 		System.out.println("Si acerta en que quedo el equipo en posicion 1, 2, 3 o 4 son 5 puntos");
 		
-		int puntajetotal=0;
-		int a1=0; //marcador
-		int b1=0; //ganador o empate
-		int c1=0; //octavos
-		int d1=0; //cuartos
-		int e1=0; //semis
-		int f1=0; //finales
-		int g1=0; //posicion
+		//int puntajetotal1=0;
+		
 		Scanner sn = new Scanner(System.in);
 		System.out.println("Escribe el marcador del partido");
 		a1 = sn.nextInt();
