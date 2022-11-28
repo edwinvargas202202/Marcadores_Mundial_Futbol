@@ -88,6 +88,9 @@ public class puntajeRealF1 extends puntajeJugadorF1 {
 			System.out.println("No acerto");
 		}
 		
+		System.out.println("El puntaje que gano en la fase 1 es de: ");
+		System.out.println(puntajetotalf1);
+		
 	}
 	
 }
