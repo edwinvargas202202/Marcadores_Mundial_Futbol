@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import puntaje.puntajeRealF1;
+
 public class crearCategoria {
 	
 	public static void imprimir(ArrayList<String> lista) {
@@ -88,7 +90,8 @@ public class crearCategoria {
             System.out.println("7. Categoria G");
             System.out.println("8. Categoria H");
             System.out.println("9. Ver todas las categorias");
-            System.out.println("10. Salir");
+            System.out.println("10. Saber resultados fase 1");
+            System.out.println("11. Salir");
  
             try {
  
@@ -499,12 +502,16 @@ public class crearCategoria {
                         imprimir(categoria7);
                         imprimir(categoria8);
                         break;
-                        
-                    case 10:
+                    
+                	case 10:
+                		puntajeRealF1 p = new puntajeRealF1();
+                		p.puntaje();
+                        break;
+                    case 11:
                         salir = true;
                         break;
                     default:
-                        System.out.println("Solo números entre 1 y 9");
+                        System.out.println("Solo números entre 1 y 11");
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");
