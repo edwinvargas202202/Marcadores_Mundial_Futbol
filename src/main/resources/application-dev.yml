@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://qatar-202202.database.windows.net:1433;database=database_mundial_2022_;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: MUNDIAL_USA
+    password: 123456789Ce
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
